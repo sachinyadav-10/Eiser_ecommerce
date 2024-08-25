@@ -1,0 +1,22 @@
+/* src/styles/InspiredProducts.css */
+.inspired {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .inspired h1 {
+    font-size: 2rem;
+  }
+  
+  .inspired p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .multi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  

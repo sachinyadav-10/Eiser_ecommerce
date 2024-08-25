@@ -1,0 +1,62 @@
+
+.new_product {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .new_product h1 {
+    font-size: 2rem;
+  }
+  
+  .new_product p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .summer{
+    margin-left: 70px;
+    margin-right: 50px;
+    align-items: center;
+    display:block;
+    justify-content:space-around;
+}
+.item{
+  margin: 5px;
+  border: 5px whitesmoke;
+  background-color: whitesmoke;
+  display: inline-block;
+  padding: 40px;
+  
+}
+.first img{
+  width: 60vh;
+  height: 47vh;
+}
+.items {
+  width: fit-content;
+  height: 80vh;
+  padding: 5px;
+}
+.heading{
+  border: 5px whitesmoke;
+  background-color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+}
+.items h2{
+  font-weight: 300;
+  padding: 30px;
+}
+.card button{
+  background-color: green;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+}
+.item h4{
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+}

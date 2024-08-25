@@ -1,0 +1,90 @@
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer .container div {
+  flex: 1;
+}
+
+.footer h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.footer p,
+.footer ul {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer .newsletter input[type="text"] {
+  width: calc(100% - 110px);
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.footer .newsletter button {
+  padding: 10px 20px;
+  background-color: #5bc000;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer .newsletter button:hover {
+  background-color: #4da000;
+}
+
+.footer .socials {
+  margin-top: 20px;
+}
+
+.footer .socials a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.footer .socials a:hover {
+  background-color: #5bc000;
+}
+
+.footer .copyright {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  color: #777;
+  border-top: 1px solid #333;
+}

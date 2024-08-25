@@ -1,0 +1,52 @@
+/* src/styles/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left .logo {
+  height: 50px;
+}
+
+.mid ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mid li {
+  margin: 0 15px;
+  position: relative;
+}
+
+.mid li:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.dropdown ul {
+  list-style-type: style none;;
+  margin: 2px;
+  display: contents;
+  padding: 2px;
+}
+
+.right i {
+  margin-left: 15px;
+  cursor: pointer;
+}

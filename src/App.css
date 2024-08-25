@@ -1,0 +1,69 @@
+/* src/styles/app.css */
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.banner {
+  margin-bottom: 20px;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.new_product {
+  margin-bottom: 20px;
+}
+
+.inspired {
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  
+  .product .big {
+    flex-direction: column;
+  }
+
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .footer div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
