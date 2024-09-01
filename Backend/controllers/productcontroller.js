@@ -63,7 +63,6 @@ exports.getAllProducts = async (req, res) => {
 exports.getTopRatedProducts = async (req, res) => {
     try {
         const products = await Product.find().sort({ rating: -1 }).limit(8);
-        console.log(products)
         res.json(products);
     } catch (error) {
         console.error('Error fetching top rated products:', error.message);
